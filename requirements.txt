@@ -1,0 +1,2 @@
+scapy==2.4.5
+zdm-client-py==1.0.1
