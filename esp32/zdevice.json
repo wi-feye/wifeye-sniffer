@@ -1,0 +1,17 @@
+{
+    "id": "crd-7jiyjt7vgg0u",
+    "devinfo": {
+        "device_id": "dev-7jiybqu9e1i3",
+        "mode": "device_token",
+        "key_id": 1,
+        "key_type": "sym"
+    },
+    "endpoint": {
+        "host": "zmqtt.zdm.zerynth.com",
+        "port": 8883,
+        "mode": "secure"
+    },
+    "prvkey": "ejh6ZVsPT/A1IzOv8tFkyaG+fEX/ISLFMi0IbeHHvbs=",
+    "cacert": "-----BEGIN CERTIFICATE-----\nMIICEDCCAbegAwIBAgIUI2/CrV3uxT5rLnsivaCrBysPJdMwCgYIKoZIzj0EAwIw\nZTELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ0wCwYDVQQHEwRQaXNhMRAw\nDgYDVQQKEwdaZXJ5bnRoMQwwCgYDVQQLEwNaRE0xFzAVBgNVBAMTDlplcnludGgg\nRUNDIENBMB4XDTIwMDYwNzE3MTcwMFoXDTQ1MDYwMTE3MTcwMFowZTELMAkGA1UE\nBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ0wCwYDVQQHEwRQaXNhMRAwDgYDVQQKEwda\nZXJ5bnRoMQwwCgYDVQQLEwNaRE0xFzAVBgNVBAMTDlplcnludGggRUNDIENBMFkw\nEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbAn8NN3+WbK9knbEW5eVCwsqZljL2eub\nUwla+us3ubz/Bz6o7X87WLbfjY59V1Mha8Tfx9EYmk2B/K0UiUEG2aNFMEMwDgYD\nVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQIwHQYDVR0OBBYEFPaxKhK/\nkAmefeHytyzuq09s3wmYMAoGCCqGSM49BAMCA0cAMEQCIFIR0d9s2Ch1Xfyxb/Qe\n6zkysT6Bkz9ib+gHAbnwBy6dAiAqGQewMud3N97hS/udPpN1E/GUW8PsWTjBXnc+\nZVLOXQ==\n-----END CERTIFICATE-----",
+    "created_at": "2022-12-22T10:52:09.938105148Z"
+}
