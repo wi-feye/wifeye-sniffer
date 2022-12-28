@@ -20,15 +20,15 @@ def hash_func(text):
     h.update(str.encode(text))
     return h.hexdigest()
 
-def load_cert():
+def load_cred():
     with open("zdevice.json") as file:
         return json.load(file)
 
 def send_payload(scans):
     body = {
-        "cert": load_cert(),
+        "cred": load_cred(),
         "payload": {
-            "ts": datetime.now().timestamp() * 1000,
+            "ts": int(datetime.now().timestamp()),
             "sum_rssi": sum([scan[4] for scan in scans]),
             "n_devices": len(scans),
             "scans": scans
