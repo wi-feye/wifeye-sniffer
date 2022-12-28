@@ -35,7 +35,7 @@ def send_payload(scans):
         },
         "tag": "rssi"
     }
-    res = post(f"{endpoint}/api/publish", json=body)
+    res = post(f"{endpoint}/api/device_interoperability/publish", json=body)
     scans.clear()
     return res.json()
 
