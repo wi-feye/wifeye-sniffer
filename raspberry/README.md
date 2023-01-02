@@ -12,6 +12,7 @@ Download **zdevice.json** from zerynth cloud account related to zerynth device a
 Set environment variables on file **.env**:
 - ENDPOINT: server endpoint
 - TIME_GAP_SECONDS: gap of time in seconds to store scans before send them to the endpoint server
+- MODE: set value DIRECT to connect device directly to zdm cloud. If value is different all payloads are sent to wifeye server
 
 ## Run
 To set device to monitor mode run script:
